@@ -9,10 +9,10 @@
 - ReactJS (TypeScript)
 ----------
 - TailwindCSS
-    Install: 
-        `npm i tailwindcss postcss autoprefixer -D`; 
-        `npx tailwindcss init -p`;
-    Abrir **tailwind.config.js** e add dentro de "content: []": ['./src/**/*.tsx'] ou ['./src/**/*.jsx'];
+--  Install: 
+---      `npm i tailwindcss postcss autoprefixer -D`; 
+---       `npx tailwindcss init -p`;
+--  Abrir **tailwind.config.js** e add dentro de "content: []": ['./src/**/*.tsx'] ou ['./src/**/*.jsx'];
 ----------
 - GraphQL
 ----------
