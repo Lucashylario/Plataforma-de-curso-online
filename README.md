@@ -20,6 +20,6 @@
 ----------
 - Apolo
  
- ## Acessar pasta da aplicação: `cd .\event-platform\`;
- ## Instalar dependêcias: `npm install`; **Obrigatório caso faça o download da aplicação, para que ela funcione no start**
- ## Start aplication: `npm run dev`;
+ ## 📲 Acessar pasta da aplicação: `cd .\event-platform\`;
+ ## ⚙️ Instalar dependêcias: `npm install`; **Obrigatório caso faça o download da aplicação, para que ela funcione no start**
+ ## ☑️ Start aplication: `npm run dev`;
