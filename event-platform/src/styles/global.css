@@ -4,4 +4,7 @@
 
 body {
     @apply bg-gray-900 text-gray-100;
+    -moz-osx-font-smoothing: antialiased; /*Firefox*/
+	font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased; /* WebKit  */ /*Deixa a fonte mais limpa*/
 }
