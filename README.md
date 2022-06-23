@@ -55,3 +55,11 @@
 - Importar aulas do GraphCMS para a aplicação - 55:40 min
 - Install biblioteca para verificar a data e hr definida para liberar aula - 01:01:25 hrs
 - Formatar data - 01:04:08 hrs
+
+**Aula 3**
+- Iniciando component do vídeo - 06:38 min
+- Install biblioteca VIMEJS para reproduzir o vídeo - 30:18 min
+- Implementando VimeJS no projeto - 32:46 min
+- Install e confg.  React router dom - 37:44 min
+- Configurando cards de aulas para redirecionar rota para o endereço especifico da aula- 42:30 min
+- Importando dados do GraphCMS para o component video - 57:36
