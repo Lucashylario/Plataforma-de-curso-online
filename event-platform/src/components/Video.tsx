@@ -36,7 +36,7 @@ interface VideoProps {
 }
 
 export function Video(props: VideoProps) {
-  const { data } = useQuery(GET_LESSON_BY_SLUG_QUERY, {
+  const { data } = useQuery<GetLessonBySlugResponse>(GET_LESSON_BY_SLUG_QUERY, {
     variables: {
       slug: props.lessonSlug,
     }
@@ -55,7 +55,7 @@ export function Video(props: VideoProps) {
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
           <Player>
-            <Youtube videoId="SO4-izct7Mc" /> {/* Youtube - vídeos do youtube - Outros: Vimeo; Video - Para vídeos mp4; Utilizar videoId="" */}
+            <Youtube videoId={data.lesson.videoId} /> {/* Youtube - vídeos do youtube - Outros: Vimeo; Video - Para vídeos mp4; Utilizar videoId="" */}
             <DefaultUi />  {/* DefaultUi adiciona funções de player, pause, volume e etc... no player */}
           </Player>
         </div>
@@ -64,15 +64,19 @@ export function Video(props: VideoProps) {
       <div className="p-8 max-w-[1100px] mx-auto">
         <div className="flex items-start gap-16">
           <div className="flex-1">
-            <h1 className="text-2xl font-bold">Aula 1</h1>
-            <p className="mt-4 text-gray-200 leading-relaxed">Descrição</p>
+            <h1 className="text-2xl font-bold">
+              {data.lesson.title}
+            </h1>
+            <p className="mt-4 text-gray-200 leading-relaxed">
+              {data.lesson.description}
+            </p>
 
             <div className="flex items-center gap-4 mt-6">
-            <img src="" alt="Foto" className="h-16 w-16 rounded-full border border-blue-500"/>
+            <img src={data.lesson.teacher.avatarURL} alt="Foto" className="h-16 w-16 rounded-full border border-blue-500"/>
 
             <div className="leading-relaxed">
-              <strong className="font-bold text-2xl block">Lucas Hylario</strong>
-              <span className="text-gray-200 text-sm block">Dev Front end</span>
+              <strong className="font-bold text-2xl block">{data.lesson.teacher.name}</strong>
+              <span className="text-gray-200 text-sm block">{data.lesson.teacher.bio}</span>
             </div>
             </div>
           </div>
@@ -91,7 +95,7 @@ export function Video(props: VideoProps) {
         <div className="gap-8 mt-20 grid grid-cols-2">
           <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-slate-600 transition-colors">
             <div className="bg-green-700 h-full p-6 flex items-center">
-              <FileArrowDown />
+              <FileArrowDown size={24} />
             </div>
 
             <div className="py-6 leading-relaxed">
@@ -106,7 +110,7 @@ export function Video(props: VideoProps) {
 
           <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-slate-600 transition-colors">
             <div className="bg-green-700 h-full p-6 flex items-center">
-              <FileArrowDown />
+              <FileArrowDown size={24} />
             </div>
 
             <div className="py-6 leading-relaxed">
