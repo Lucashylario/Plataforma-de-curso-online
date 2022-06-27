@@ -63,3 +63,14 @@
 - Install e confg.  React router dom - 37:44 min
 - Configurando cards de aulas para redirecionar rota para o endereço especifico da aula- 42:30 min
 - Importando dados do GraphCMS para o component video - 57:36
+
+
+**Aula 4**
+- Add imagem de background com tailwind- 11:10 min
+- Formulário de login - 18:16 min
+- Funcionalidade para login com GraphCMS - 22:50 min
+- Configurando chamada no GraphCMS para cadastra novos usuários - 24:39 min
+- Criação de variáveis ambiente no vite para não deixar o token do graphCMS exposto - 31:12 min
+- Configurando formulario do React com o GraphCMS - 33:23 min
+- Redirecionar usuário cadastrado para pág do evento - 45:20 min
+- Estilo da lesson (Card da aula) ativo - 48:24 min
