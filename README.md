@@ -26,7 +26,11 @@
 - Date FNS (Para formatar data e hora / Liberar curso após atingir data e hora programados no GraphCMS)
 -   Install: `npm i date-fns`
 -   Link: `https://date-fns.org/`
- 
+----------
+- GraphQL Code Gen
+- Link: `https://www.graphql-code-generator.com/docs/guides/react#apollo-and-urql`
+
+-----------
  ## 📲 Acessar pasta da aplicação: `cd .\event-platform\`;
  ## ⚙️ Instalar dependêcias: `npm install`; **Obrigatório caso faça o download da aplicação, para que ela funcione no start**
  ## ☑️ Start aplication: `npm run dev`;
@@ -74,3 +78,9 @@
 - Configurando formulario do React com o GraphCMS - 33:23 min
 - Redirecionar usuário cadastrado para pág do evento - 45:20 min
 - Estilo da lesson (Card da aula) ativo - 48:24 min
+
+**Aula 5**
+- GraphQL Code gen - 02:35 min
+- Install GraphQL Code gen - 07:00 min
+- Config GraphQL Code Gen - 08:10 min
+- Deploy do projeto - 22:00 min
