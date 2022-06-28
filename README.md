@@ -1,86 +1,48 @@
-- Vídeo pause: 32min GraphCMS config
+### PLATAFORMA DE EVENTO - Aulas Online
 
 ## 📲 Aplicação: **Plataforma de curso online**
 ## 📚 Evento: Ignite Lab | Especialização em ReactJS
 ## 🚀 Rocketseat
 ## ✒️ Layout: `https://www.figma.com/community/file/1120711251998877938`
 
-## 🛠 Ferramentas: 
-- Vite
-----------
-- ReactJS (TypeScript)
-----------
-- TailwindCSS
--  Install: 
--      `npm i tailwindcss postcss autoprefixer -D`; 
--       `npx tailwindcss init -p`;
--  Abrir **tailwind.config.js** e add dentro de "content: []": `['./src/**/*.tsx']` ou `['./src/**/*.jsx']`;
-----------
-- GraphQL
-----------
-- GraphCMS - Fornecerá dos dados para a aplicação.
-----------
-- Apollo
--  Intall + GraphQL: `npm i @apollo/client graphql`
-----------
-- Date FNS (Para formatar data e hora / Liberar curso após atingir data e hora programados no GraphCMS)
--   Install: `npm i date-fns`
--   Link: `https://date-fns.org/`
-----------
-- GraphQL Code Gen
-- Link: `https://www.graphql-code-generator.com/docs/guides/react#apollo-and-urql`
+## 🛠 Técnologias utilizadas: 
 
+- **💎 Vite**
+----------
+- **⚛️ ReactJS (TypeScript)**
+----------
+- **🎨 TailwindCSS**
+----------
+- **🚀 Apollo**
+----------
+- **📈 GraphQL**
+----------
+- **📉 GraphCMS - Fornecerá dos dados para a aplicação.**
+----------
+- **⏰ Date FNS (Para formatar data e hora / Liberar curso após atingir data e hora programados no GraphCMS)**
+----------
+- **🎥 VimeJS (Biblioteca para adicionar player de vídeo)**
+----------
+- **👨🏼‍💻 GraphQL Code Gen**
 -----------
+
  ## 📲 Acessar pasta da aplicação: `cd .\event-platform\`;
- ## ⚙️ Instalar dependêcias: `npm install`; **Obrigatório caso faça o download da aplicação, para que ela funcione no start**
+ ## ⚙️ Instalar dependêcias: `npm install`; **Obrigatório caso faça o download da aplicação, para que ela funcione no start** 
  ## ☑️ Start aplication: `npm run dev`;
 
-## Time content vídeo:
-**Aula 1**
-- React install (Vite) - 13min
-- Install and config Tailwindcss - 22:30 min
-- Extension install vs code - 26:25 min
-- GraphCMS introduction - 32min 
-- GraphCMS created new field - 41:16 min
-- GraphCMS clone project - 44min
-- GraphCMS add Teacher and Aula - 46:55 min
-- GraphCMS config API - 57:35 min
-- Importando API para o React com Apollo- 58:28 min
-- Install Apollo - 01:00:30 hr
-- Configuração do Apollo - 01:01:19 hr
-- Fazendo requisição da api para a o React - 01:01:36 hr
+## 📲 Mockup Desktop
+- **Tela de Login**
+<img src="event-platform\src\assets\login-desktop.png" />
 
-**Aula 2**
-- Criação dos components - 10:15 min
-- Importar fontes no Tailwind - 24:15 min
-- Criação do sidebar (Barra lateral) - 28:25 min 
-- Instal Phosphor icons - 46:25 min
-- Propriedades react (interface - typescript) - 49:25 min
-- Importar aulas do GraphCMS para a aplicação - 55:40 min
-- Install biblioteca para verificar a data e hr definida para liberar aula - 01:01:25 hrs
-- Formatar data - 01:04:08 hrs
+- **Tela do evento/aulas**
+<img src="event-platform\src\assets\plataforma-desktop.png" />
 
-**Aula 3**
-- Iniciando component do vídeo - 06:38 min
-- Install biblioteca VIMEJS para reproduzir o vídeo - 30:18 min
-- Implementando VimeJS no projeto - 32:46 min
-- Install e confg.  React router dom - 37:44 min
-- Configurando cards de aulas para redirecionar rota para o endereço especifico da aula- 42:30 min
-- Importando dados do GraphCMS para o component video - 57:36
+## Mockup Mobile
+- **Tela de Login**
+<img src="event-platform\src\assets\login-mobile.png" />
 
+- **Tela do evento/aulas**
+<img src="event-platform\src\assets\plataforma-mobile.png" />
 
-**Aula 4**
-- Add imagem de background com tailwind- 11:10 min
-- Formulário de login - 18:16 min
-- Funcionalidade para login com GraphCMS - 22:50 min
-- Configurando chamada no GraphCMS para cadastra novos usuários - 24:39 min
-- Criação de variáveis ambiente no vite para não deixar o token do graphCMS exposto - 31:12 min
-- Configurando formulario do React com o GraphCMS - 33:23 min
-- Redirecionar usuário cadastrado para pág do evento - 45:20 min
-- Estilo da lesson (Card da aula) ativo - 48:24 min
-
-**Aula 5**
-- GraphQL Code gen - 02:35 min
-- Install GraphQL Code gen - 07:00 min
-- Config GraphQL Code Gen - 08:10 min
-- Deploy do projeto - 22:00 min
+- **Menu modal mobile**
+<img src="event-platform\src\assets\aulas-modal-mobile.png" />
